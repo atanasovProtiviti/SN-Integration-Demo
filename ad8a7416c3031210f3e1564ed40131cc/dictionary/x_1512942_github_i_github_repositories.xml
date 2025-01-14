@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="81eaf896c3031210f3e1564ed40131c0" label="Github Repositories" max_length="40" name="x_1512942_github_i_github_repositories" type="collection">
+    <element audit="true" db_object_id="81eaf896c3031210f3e1564ed40131c0" label="Github Repositories" max_length="40" name="x_1512942_github_i_github_repositories" type="collection">
         <element attributes="encode_utf8=false" label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Repository" max_length="222" name="repository" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
